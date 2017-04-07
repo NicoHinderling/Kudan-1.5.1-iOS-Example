@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2206971C1BDA908400EE2425 /* samba_dancing.armodel in Resources */ = {isa = PBXBuildFile; fileRef = 2206971B1BDA908400EE2425 /* samba_dancing.armodel */; };
+		22DA784E1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DA784D1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m */; };
+		22DA78501BDFEDFF0057D8C3 /* target.png in Resources */ = {isa = PBXBuildFile; fileRef = 22DA784F1BDFEDFF0057D8C3 /* target.png */; };
+		22DB2FDD1BD8F81A00296E27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB2FDC1BD8F81A00296E27 /* main.m */; };
+		22DB2FE01BD8F81A00296E27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DB2FDF1BD8F81A00296E27 /* AppDelegate.m */; };
+		22DB2FE61BD8F81A00296E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DB2FE41BD8F81A00296E27 /* Main.storyboard */; };
+		22DB2FE81BD8F81A00296E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22DB2FE71BD8F81A00296E27 /* Assets.xcassets */; };
+		22DB2FEB1BD8F81A00296E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22DB2FE91BD8F81A00296E27 /* LaunchScreen.storyboard */; };
+		22DB2FFC1BD91AF300296E27 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 22DB2FFB1BD91AF300296E27 /* libc++.tbd */; };
+		C31E99321E93F6DA00B42503 /* footballer_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = C31E99311E93F6DA00B42503 /* footballer_tex.png */; };
+		C3F113BF1E8F096B00FEC7CA /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9E0D01BEA344F00A84FEF /* KudanAR.framework */; };
+		C3F113C01E8F096B00FEC7CA /* KudanAR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22E9E0D01BEA344F00A84FEF /* KudanAR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3F113C11E8F096B00FEC7CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C3F113C01E8F096B00FEC7CA /* KudanAR.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2206971B1BDA908400EE2425 /* samba_dancing.armodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = samba_dancing.armodel; sourceTree = "<group>"; };
+		22DA784C1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerlessTrackingViewController.h; sourceTree = "<group>"; };
+		22DA784D1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerlessTrackingViewController.m; sourceTree = "<group>"; };
+		22DA784F1BDFEDFF0057D8C3 /* target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = target.png; sourceTree = "<group>"; };
+		22DB2FD81BD8F81A00296E27 /* Kudan-ObjC-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kudan-ObjC-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22DB2FDC1BD8F81A00296E27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22DB2FDE1BD8F81A00296E27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22DB2FDF1BD8F81A00296E27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22DB2FE51BD8F81A00296E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22DB2FE71BD8F81A00296E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22DB2FEA1BD8F81A00296E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22DB2FEC1BD8F81B00296E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DB2FFB1BD91AF300296E27 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		22E9E0D01BEA344F00A84FEF /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KudanAR.framework; path = ../../KudanAR.framework; sourceTree = "<group>"; };
+		C31E99311E93F6DA00B42503 /* footballer_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footballer_tex.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DB2FD51BD8F81A00296E27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DB2FFC1BD91AF300296E27 /* libc++.tbd in Frameworks */,
+				C3F113BF1E8F096B00FEC7CA /* KudanAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22DB2FCF1BD8F81A00296E27 = {
+			isa = PBXGroup;
+			children = (
+				22DB2FDA1BD8F81A00296E27 /* Kudan-ObjC-Example */,
+				22DB2FD91BD8F81A00296E27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22DB2FD91BD8F81A00296E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22DB2FD81BD8F81A00296E27 /* Kudan-ObjC-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22DB2FDA1BD8F81A00296E27 /* Kudan-ObjC-Example */ = {
+			isa = PBXGroup;
+			children = (
+				C31E99311E93F6DA00B42503 /* footballer_tex.png */,
+				2206971B1BDA908400EE2425 /* samba_dancing.armodel */,
+				22DA784F1BDFEDFF0057D8C3 /* target.png */,
+				22DA784C1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.h */,
+				22DA784D1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m */,
+				22DB2FDE1BD8F81A00296E27 /* AppDelegate.h */,
+				22DB2FDF1BD8F81A00296E27 /* AppDelegate.m */,
+				22DB2FE41BD8F81A00296E27 /* Main.storyboard */,
+				22DB2FE71BD8F81A00296E27 /* Assets.xcassets */,
+				22DB2FE91BD8F81A00296E27 /* LaunchScreen.storyboard */,
+				22DB2FEC1BD8F81B00296E27 /* Info.plist */,
+				22DB2FFB1BD91AF300296E27 /* libc++.tbd */,
+				22E9E0D01BEA344F00A84FEF /* KudanAR.framework */,
+				22DB2FDB1BD8F81A00296E27 /* Supporting Files */,
+			);
+			path = "Kudan-ObjC-Example";
+			sourceTree = "<group>";
+		};
+		22DB2FDB1BD8F81A00296E27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22DB2FDC1BD8F81A00296E27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22DB2FD71BD8F81A00296E27 /* Kudan-ObjC-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22DB2FEF1BD8F81B00296E27 /* Build configuration list for PBXNativeTarget "Kudan-ObjC-Example" */;
+			buildPhases = (
+				22DB2FD41BD8F81A00296E27 /* Sources */,
+				22DB2FD51BD8F81A00296E27 /* Frameworks */,
+				22DB2FD61BD8F81A00296E27 /* Resources */,
+				C3F113C11E8F096B00FEC7CA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kudan-ObjC-Example";
+			productName = "Enhanced Kudan Samples";
+			productReference = 22DB2FD81BD8F81A00296E27 /* Kudan-ObjC-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22DB2FD01BD8F81A00296E27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Kudan;
+				TargetAttributes = {
+					22DB2FD71BD8F81A00296E27 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KXWWRDZ233;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22DB2FD31BD8F81A00296E27 /* Build configuration list for PBXProject "Kudan-ObjC-Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22DB2FCF1BD8F81A00296E27;
+			productRefGroup = 22DB2FD91BD8F81A00296E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22DB2FD71BD8F81A00296E27 /* Kudan-ObjC-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22DB2FD61BD8F81A00296E27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DA78501BDFEDFF0057D8C3 /* target.png in Resources */,
+				22DB2FEB1BD8F81A00296E27 /* LaunchScreen.storyboard in Resources */,
+				22DB2FE81BD8F81A00296E27 /* Assets.xcassets in Resources */,
+				2206971C1BDA908400EE2425 /* samba_dancing.armodel in Resources */,
+				22DB2FE61BD8F81A00296E27 /* Main.storyboard in Resources */,
+				C31E99321E93F6DA00B42503 /* footballer_tex.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22DB2FD41BD8F81A00296E27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22DB2FE01BD8F81A00296E27 /* AppDelegate.m in Sources */,
+				22DB2FDD1BD8F81A00296E27 /* main.m in Sources */,
+				22DA784E1BDFEAEF0057D8C3 /* MarkerlessTrackingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22DB2FE41BD8F81A00296E27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DB2FE51BD8F81A00296E27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22DB2FE91BD8F81A00296E27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22DB2FEA1BD8F81A00296E27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22DB2FED1BD8F81B00296E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22DB2FEE1BD8F81B00296E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22DB2FF01BD8F81B00296E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KXWWRDZ233;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Kudan-ObjC-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Nico.Dog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		22DB2FF11BD8F81B00296E27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KXWWRDZ233;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/..";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Kudan-ObjC-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nico.Dog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22DB2FD31BD8F81A00296E27 /* Build configuration list for PBXProject "Kudan-ObjC-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DB2FED1BD8F81B00296E27 /* Debug */,
+				22DB2FEE1BD8F81B00296E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22DB2FEF1BD8F81B00296E27 /* Build configuration list for PBXNativeTarget "Kudan-ObjC-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22DB2FF01BD8F81B00296E27 /* Debug */,
+				22DB2FF11BD8F81B00296E27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22DB2FD01BD8F81A00296E27 /* Project object */;
+}
