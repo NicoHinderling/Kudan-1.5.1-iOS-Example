@@ -19,3 +19,7 @@ In his tutorial, [this photo](http://cdn.dev.classmethod.jp/wp-content/uploads/2
 
 
 **If anyone knows  how to resolve this issue, please let me know!**
+
+---
+
+Note: I came across [otaviokz's Kudan-Slam](https://github.com/otaviokz/Kudan-Slam) which uses Swift but ultimately is still an ObjC project (AppDelegate is in ObjC + project has the required main.m file). Being the case, my problem stands... :stuck_out_tongue:
